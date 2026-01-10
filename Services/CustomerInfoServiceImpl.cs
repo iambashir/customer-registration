@@ -62,5 +62,13 @@ public class CustomerInfoServiceImpl : CustomerInfoService
 
         await _repository.DeleteAsync(customer);
     }
+
+
+    // 🔹 NEW METHOD for Dashboard
+    public async Task<long> GetCustomerCountAsync()
+    {
+        return await _repository.CountAsync();
+    }
+
 }
 

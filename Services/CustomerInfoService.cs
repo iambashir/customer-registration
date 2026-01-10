@@ -11,5 +11,8 @@ public interface CustomerInfoService
     Task<CustomerInfo> CreateAsync(CustomerInfoDto dto);
     Task UpdateAsync(long id, CustomerInfoDto dto);
     Task DeleteAsync(long id);
+
+    Task<long> GetCustomerCountAsync();
+
 }
 

@@ -38,5 +38,13 @@ public class CustomerInfoRepository
         _context.CustomerInfos.Remove(customer);
         await _context.SaveChangesAsync();
     }
+
+    //For Dashboard
+    public async Task<long> CountAsync()
+    {
+        return await _context.CustomerInfos.LongCountAsync();
+    }
+
+
 }
 

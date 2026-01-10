@@ -66,4 +66,15 @@ public class CustomerInfoController : ControllerBase
 
         return Ok(new { message = "Deleted successfully" });
     }
+
+    //For Dashboard
+    // GET: api/customers/count
+    [HttpGet("count")]
+    public async Task<IActionResult> GetCustomerCount()
+    {
+        var count = await _service.GetCustomerCountAsync();
+        return Ok(new { totalCustomers = count });
+    }
+
+
 }
