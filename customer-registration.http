@@ -1,0 +1,6 @@
+@customer_registration_HostAddress = http://localhost:5244
+
+GET {{customer_registration_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

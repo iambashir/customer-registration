@@ -1,0 +1,154 @@
+# ------------------------------
+# Maven
+# ------------------------------
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+
+# ------------------------------
+# Gradle
+# ------------------------------
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+
+# ------------------------------
+# Spring Boot
+# ------------------------------
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ------------------------------
+# IntelliJ IDEA
+# ------------------------------
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ------------------------------
+# Eclipse
+# ------------------------------
+.project
+.classpath
+.settings/
+bin/
+
+# ------------------------------
+# VS Code
+# ------------------------------
+.vscode/
+
+# ------------------------------
+# OS Specific
+# ------------------------------
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+## ========================
+## .NET / ASP.NET Core
+## ========================
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio cache
+.vs/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Publish output
+publish/
+wwwroot/dist/
+
+# Logs
+*.log
+
+# Secrets & local settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Environment files
+.env
+.env.*
+
+# Certificates
+*.pfx
+
+# EF Core
+Migrations/*.csproj
+__EFMigrationsHistory/
+
+# NuGet
+*.nupkg
+.nuget/
+packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup & temp files
+*.bak
+*.tmp
+*.temp
+*.swp
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# Docker
+docker-compose.override.yml
+
+# Node (if frontend exists)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
