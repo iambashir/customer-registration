@@ -2,8 +2,9 @@
 
 
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-
+[Table("CustomerInfo")]
 public class CustomerInfo
 {
     [Key]
