@@ -1,0 +1,18 @@
+CREATE CustomerInfo TABLE INTO [SQL SERVER]
+-------------------------------------------
+
+INSERT DEMO DATA INTO CustomerInfo TABLE [SQL SERVER]
+-----------------------------------------------------
+
+
+
+
+
+
+CREATE CustomerInfo TABLE INTO [POSTGRES]
+----------------------------------------
+
+INSERT DEMO DATA INTO CustomerInfo TABLE [SQL SERVER]
+-----------------------------------------------------
+
+
