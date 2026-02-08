@@ -4,7 +4,7 @@ using customer_registration.Entities;
 
 namespace customer_registration.Services;
 
-public interface CustomerInfoService
+public interface ICustomerInfoService
 {
     Task<List<CustomerInfo>> GetAllAsync();
     Task<CustomerInfo?> GetByIdAsync(long id);

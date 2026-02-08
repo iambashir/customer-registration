@@ -4,7 +4,7 @@ using customer_registration.Entities;
 using customer_registration.Repositories;
 
 namespace customer_registration.Services;
-public class CustomerInfoServiceImpl : CustomerInfoService
+public class CustomerInfoServiceImpl : ICustomerInfoService
 {
     private readonly CustomerInfoRepository _repository;
 

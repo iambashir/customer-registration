@@ -8,9 +8,9 @@ namespace customer_registration.Controllers;
 [Route("api/customers")]
 public class CustomerInfoController : ControllerBase
 {
-    private readonly CustomerInfoService _service;
+    private readonly ICustomerInfoService _service;
 
-    public CustomerInfoController(CustomerInfoService service)
+    public CustomerInfoController(ICustomerInfoService service)
     {
         _service = service;
     }

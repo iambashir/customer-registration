@@ -27,7 +27,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // Dependency Injection
 // =====================
 builder.Services.AddScoped<CustomerInfoRepository>();
-builder.Services.AddScoped<CustomerInfoService, CustomerInfoServiceImpl>();
+builder.Services.AddScoped<ICustomerInfoService, CustomerInfoServiceImpl>();
 
 // =====================
 // CORS (Angular 4200)
